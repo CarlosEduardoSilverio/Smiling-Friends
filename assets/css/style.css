@@ -1,0 +1,420 @@
+body{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-family: 'Sniglet', cursive;
+} 
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Nav Bar */
+.Nav{
+    padding: 0px;
+}
+
+.Logo {
+    width: 50px;
+    height: 50px;
+    padding-left: 5px;
+    padding-top: 2px;
+}
+
+.NavBar{
+    position: absolute;
+    top: 0;
+    right: 0;
+    border: 0;
+    padding-top: 18px;
+    padding-right: 20px;
+    margin: 0;
+    font-size: 23px;
+}
+
+.Textos{
+    padding-left: 10px;
+}
+/* Nav Bar */
+
+/* Main */
+.Teste{
+    /* border: 2px solid rgb(238, 255, 0); */
+    background-color: gray;
+    margin: 10px;
+}
+
+.teste2{
+    /* border: 2px solid rgb(237, 17, 17); */
+    margin: 5px;
+    width: 760px;
+    margin-left: 13px;
+    padding-top: 12px;
+}
+
+.Img-Texto{
+    width: 760px;
+    height: 240px;
+}
+
+.Infos-Textos{
+    font-size: 29px;
+    padding-left: 2px;
+    margin-top: 10px;
+    padding-bottom: 10px;
+}
+
+.Foto_grupo{
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding-top: 80.4px;
+    padding-right: 18px;
+}
+/* Main */
+
+/* Pim */
+
+.Pim-Info{
+    border: 2px solid rgba(255, 255, 255, 0.372);
+    display: flex;
+    background-color: rgba(255, 0, 255, 0.676);
+    margin: 3em;
+    border-radius: 14px;
+    color: white;
+}
+
+.Personalidade-Pim{
+    display: flex;
+    justify-content: center;
+    background-color: #672982;
+    margin-top: 10px;
+    width: 794px;
+}
+
+.Personalidade-Texto-Pim{
+    margin: 1em;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.vertical-Pim{
+    border-left: 2px solid rgba(221, 0, 255, 0.721);
+    height: 627px;
+    position:absolute;
+    left: 66.80%;
+}
+
+.Pim-Info-Area{
+    width: 780px;
+    margin-top: 30px;
+    margin-left: 8px;
+    background-color: #462255;
+}
+
+.Titulo-Pim{
+    display: flex;
+    justify-content: center;
+    background-color: #672982;
+}
+
+.frase{
+    padding: 5px 0 0 10px;
+}
+
+/* Pim */
+
+/* Charlie */
+
+.Charlie-Info{
+    border: 2px solid rgb(255, 153, 0);
+    display: flex;
+    background-color: rgba(255, 238, 88, 0.963);
+    margin: 3em;
+    border-radius: 14px;
+    color: black;
+}
+
+.Personalidade-Charlie{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(255, 187, 0);
+    margin-top: 10px;
+    width: 794px;
+}
+
+.Personalidade-Texto-Charlie{
+    margin: 1em;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.vertical-Charlie{
+    border-left: 2px solid rgb(255, 153, 0);
+    height: 850px;
+    position:absolute;
+    left: 66.80%;
+}
+
+.Charlie-Info-Area{
+    width: 780px;
+    margin-top: 30px;
+    margin-left: 8px;
+    background-color: #ed831e;
+}
+
+.Titulo-Charlie{
+    display: flex;
+    justify-content: center;
+    background-color:#f6ff00;
+}
+
+.frase{
+    padding: 5px 0 0 10px;
+}
+
+.PE{
+    padding: 15px 0 20px 10px;
+}
+
+.UE{
+    padding-top: 20px;
+    padding-left: 2px;
+}
+
+.Charlie-carousel{
+    width: 320px;
+    margin-top: 3em;
+    margin-left: 20px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+.Charlie-Img{
+    height: 320px;
+    width: 320px;
+}
+
+.Charlie-Vid{
+    margin-top: 6em;
+}
+
+/* Charlie */
+
+/* Alan */
+
+.Alan-Info{
+    border: 2px solid rgba(0, 102, 255, 0.616);
+    display: flex;
+    background-color: rgb(123, 3, 3);
+    margin: 3em;
+    border-radius: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.Personalidade-Alan{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(206, 5, 5);
+    margin-top: 10px;
+    width: 794px;
+}
+
+.Personalidade-Texto-Alan{
+    margin: 1em;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.vertical-Alan{
+    border-left: 2px solid rgb(18, 7, 165);
+    height:562px;
+    position:absolute;
+    left: 66.80%;
+}
+
+.Alan-Info-Area{
+    width: 780px;
+    margin-top: 30px;
+    margin-left: 8px;
+    background-color: #cc0505de;
+}
+
+.Titulo-Alan{
+    display: flex;
+    justify-content: center;
+    background-color:#0048ff22;
+}
+
+/* Alan */
+
+/* Glep */
+
+.Glep-Info{
+    border: 2px solid rgb(43, 255, 0);
+    display: flex;
+    background-color:rgb(39, 91, 29);
+    margin: 3em;
+    border-radius: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.Personalidade-Glep{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(10, 168, 57);
+    margin-top: 10px;
+    width: 794px;
+}
+
+.Personalidade-Texto-Glep{
+    margin: 1em;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.vertical-Glep{
+    border-left: 2px solid rgb(43, 255, 0)  ;
+    height:556px;
+    position:absolute;
+    left: 66.80%;
+}
+
+.Glep-Info-Area{
+    width: 780px;
+    margin-top: 30px;
+    margin-left: 8px;
+    background-color: rgb(44, 116, 51);
+}
+
+.Titulo-Glep{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(36, 163, 11, 0.658);
+}
+
+/* Glep */
+
+/* O Chefe */
+
+.Chefe-Info{
+    border: 2px solid rgb(82, 67, 116);
+    display: flex;
+    background-color:rgba(52, 87, 89, 0.664);
+    margin: 3em;
+    border-radius: 14px;
+    color: rgb(255, 255, 255);
+}
+
+.Personalidade-Chefe{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(11, 85, 146);
+    margin-top: 10px;
+    width: 794px;
+}
+
+.Personalidade-Texto-Chefe{
+    margin: 1em;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 1.2;
+}
+
+.vertical-Chefe{
+    border-left: 2px solid rgb(82, 67, 116) ;
+    height: 743px;
+    position:absolute;
+    left: 66.80%;
+}
+
+.Chefe-Info-Area{
+    width: 780px;
+    margin-top: 30px;
+    margin-left: 8px;
+    background-color: rgba(79, 75, 118, 0.651);
+}
+
+.Titulo-Chefe{
+    display: flex;
+    justify-content: center;
+    background-color:rgba(22, 64, 97, 0.838);
+}
+
+/* O Chefe */
+
+h1{
+    text-align: center  ;
+    padding-top: 15px;
+}
+
+.Textos-Personagens{
+    width: 800px;
+}
+
+.Carousel-Tamanho{
+    width: 355px;
+}
+
+.Carousel-Img{
+    height: 200px;
+    width: 200px;
+}
+
+.carousel234{
+    width: 200px;
+    margin-left: 80px;
+    border: 3px solid rgb(0, 0, 0);
+    box-shadow: 0 0 8px rgb(255, 255, 255);
+}
+
+.Container-Infos{
+    display: flex;
+    justify-content: center;
+}
+
+.centro{
+    display: flex;
+    justify-content: center;
+}
+
+/* --------------------------------------------------------------------------------------------------------------------- */
+
+
+.PE{
+    padding: 15px 0 20px 10px;
+}
+
+.UE{
+    padding-top: 20px;
+    padding-left: 2px;
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+
+.Info-Beleza{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+}
+
+ul{
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+li{
+    margin-left: 1.5em;
+    line-height: 1.5;
+}
+
+iframe{
+    border-radius: 3%;
+}
