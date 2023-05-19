@@ -1,8 +1,14 @@
 body{
-    background-color: rgb(0, 0, 0);
+    background-color: rgb(37, 35, 35);
     color: rgb(255, 255, 255);
     font-family: 'Sniglet', cursive;
+    margin-top: 70px;
+    line-height: 1.2;
 } 
+
+.teste1234556{
+    padding-top: 0;
+}
 
 * {
     margin: 0%;
@@ -10,10 +16,6 @@ body{
 }
 
 /* Nav Bar */
-.Nav{
-    padding: 0px;
-}
-
 .Logo {
     width: 50px;
     height: 50px;
@@ -22,18 +24,22 @@ body{
 }
 
 .NavBar{
-    position: absolute;
-    top: 0;
-    right: 0;
-    border: 0;
-    padding-top: 18px;
-    padding-right: 20px;
-    margin: 0;
-    font-size: 23px;
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    padding-top: 4px;
+    padding-bottom: 4px;
 }
 
 .Textos{
-    padding-left: 10px;
+    padding-top: 12px;
+    font-size: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.Textos:hover{
+    text-decoration: underline;
 }
 /* Nav Bar */
 
@@ -41,27 +47,22 @@ body{
 .Teste{
     /* border: 2px solid rgb(238, 255, 0); */
     background-color: gray;
-    margin: 10px;
+    /* margin: 10px; */
 }
 
 .teste2{
     /* border: 2px solid rgb(237, 17, 17); */
-    margin: 5px;
-    width: 760px;
-    margin-left: 13px;
-    padding-top: 12px;
+    margin: 10px;
+    /* width: 760px; */
+    /* margin-left: 13px; */
+    padding-left: 90px;
+    padding-top: 15px;
+    padding-bottom: 10px;
 }
 
 .Img-Texto{
-    width: 760px;
-    height: 240px;
-}
-
-.Infos-Textos{
-    font-size: 29px;
-    padding-left: 2px;
-    margin-top: 10px;
-    padding-bottom: 10px;
+    width: 1100px;
+    height: 500px;
 }
 
 .Foto_grupo{
@@ -72,7 +73,31 @@ body{
     padding-right: 18px;
 }
 /* Main */
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Sobre */
 
+.sobre{
+    background-color: rgb(108, 104, 104);
+    margin: 2%;
+    font-size: 22px;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.hbo{
+    text-decoration: none;
+    color: #000000;
+}
+
+.hbo:hover{
+    text-decoration: underline;
+}
+.Premissa{
+    font-size: 28px;
+    font-weight: bold;
+}
+/* ----------------------------------------------------------------------------------------------------------------- */
+/*                                          Personagem Principais                                                           */
 /* Pim */
 
 .Pim-Info{
@@ -101,7 +126,7 @@ body{
 
 .vertical-Pim{
     border-left: 2px solid rgba(221, 0, 255, 0.721);
-    height: 627px;
+    height: 654.5px;
     position:absolute;
     left: 66.80%;
 }
@@ -122,11 +147,9 @@ body{
 .frase{
     padding: 5px 0 0 10px;
 }
-
 /* Pim */
-
+/* ----------------------------------------------------------------------------------------------------------------- */
 /* Charlie */
-
 .Charlie-Info{
     border: 2px solid rgb(255, 153, 0);
     display: flex;
@@ -153,7 +176,7 @@ body{
 
 .vertical-Charlie{
     border-left: 2px solid rgb(255, 153, 0);
-    height: 850px;
+    height: 838px;
     position:absolute;
     left: 66.80%;
 }
@@ -200,11 +223,9 @@ body{
 .Charlie-Vid{
     margin-top: 6em;
 }
-
 /* Charlie */
-
+/* ----------------------------------------------------------------------------------------------------------------- */
 /* Alan */
-
 .Alan-Info{
     border: 2px solid rgba(0, 102, 255, 0.616);
     display: flex;
@@ -231,7 +252,7 @@ body{
 
 .vertical-Alan{
     border-left: 2px solid rgb(18, 7, 165);
-    height:562px;
+    height: 613 px;
     position:absolute;
     left: 66.80%;
 }
@@ -248,11 +269,8 @@ body{
     justify-content: center;
     background-color:#0048ff22;
 }
-
-/* Alan */
-
+/* --------------------------------------------------------------------------------------------------------------------------------------- */
 /* Glep */
-
 .Glep-Info{
     border: 2px solid rgb(43, 255, 0);
     display: flex;
@@ -296,11 +314,8 @@ body{
     justify-content: center;
     background-color:rgba(36, 163, 11, 0.658);
 }
-
-/* Glep */
-
+/* ----------------------------------------------------------------------------------------------------------------- */
 /* O Chefe */
-
 .Chefe-Info{
     border: 2px solid rgb(82, 67, 116);
     display: flex;
@@ -327,7 +342,7 @@ body{
 
 .vertical-Chefe{
     border-left: 2px solid rgb(82, 67, 116) ;
-    height: 743px;
+    height: 778px;
     position:absolute;
     left: 66.80%;
 }
@@ -344,12 +359,529 @@ body{
     justify-content: center;
     background-color:rgba(22, 64, 97, 0.838);
 }
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/*                                          Personagem Secundarios                                                         */
+.secundários{
+    display: flex;
+}
 
-/* O Chefe */
+/* Desmond */
+.Desmond{
+    /* border: 1px solid rgba(255, 255, 255, 0.676); */
+    width: 598px;
+    margin-top: 3em;
+    margin-left: 1em;
+    height: 321px;
+    border: 2px solid rgb(138, 78, 78);
+}
 
-h1{
+.desmond-nome{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+    /* border: 2px solid #f6ff00; */
+}
+
+.Desmond-Img{
+    height: 285px;
+    width: 200px;
+    margin-top: -15px;
+}
+
+.desmond-info-Area{
+    background-color: #0a0a108a;
+    /* border: 2px solid green; */
+    width: 394px;
+    /* height: 90px; */
+    margin: 0;
+    /* border: 2px solid red; */
+
+}
+
+.Info-Beleza-Desmond{
+    border: 1px solid rgb(0, 0, 0);
+    width: 300px;
+}
+
+.ças{
+    /* border: 2px solid red; */
+    margin-top: -16px;
+}
+
+.Titulo-Desmond{
+    display: flex;
+    justify-content: center;
+    background-color: #403741;
+}
+
+.Desmond-resumo{
+    font-size: 16px;
+    background-color: rgba(51, 56, 65, 0.658);
+    padding: 1.6% 5% 3% 5%;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Sr. Sapo */
+
+.SrSapo{
+    /* border: 1px solid rgb(47, 255, 0); */
+    width: 598px;
+    margin-top: 3em;
+    margin-left: 1.5em;
+    border: 2px solid rgba(60, 255, 0, 0.338);
+}
+
+.sapo-nome{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.sapo-Img{
+    height: 245px;
+    width: 200px;
+    margin-top: -15px;
+}
+
+.sapo-resumo{
+    font-size: 16px;
+    background-color: rgba(37, 71, 37, 0.708);
+    padding: 5% 5% 5% 5%;
+}
+
+.sapo-info-Area{
+    background-color: #3074298a;
+    width: 393.5px;
+}
+
+.sapo-info-Are{
+    background-color:  #3074298a;
+}
+
+.Titulo-sapo{
+    display: flex;
+    justify-content: center;
+    background-color: #00ff0461;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Camarão */
+.Camarão{
+    border: 2px solid rgb(240, 160, 221);
+    width: 598px;
+    height: 286px;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+.Camarão-nome{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.Camarão-Img{
+    height: 250px;
+    width: 200px;
+    margin-top: -16px;
+}
+
+.Camarão-resumo{
+    font-size: 16px;
+    background-color:  rgb(151, 75, 134);
+    padding: 5% 5% 5% 5%;
+}
+
+.Camarão-info-Area{
+    background-color: rgb(86, 23, 72);
+    width: 393.9px;
+    margin-top: -16px;
+}
+
+.Titulo-Camarão{
+    display: flex;
+    justify-content: center;
+    background-color: #b92dc0;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Mip */
+.Mip{
+    border: 2px solid rgb(112, 39, 39);
+    width: 598px;
+    height: 286px;
+    margin-top: 3em;
+    margin-left: 1.5em;
+}
+
+.Mip-nome{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.Mip-Img{
+    height: 252px;
+    width: 200px;
+    margin-top: -16px;
+}
+
+.Mip-resumo{
+    font-size: 16px;
+    background-color: rgb(69, 38, 38);
+    padding: 5% 5% 5% 5%;
+}
+
+.Mip-info-Area{
+    background-color: rgba(165, 42, 42, 0.603);
+    width: 393.9px;
+    margin-top: -16px;
+}
+
+.Titulo-Mip{
+    display: flex;
+    justify-content: center;
+    background-color: #255856;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Demonio */
+.Demonio{
+    border: 2px solid rgba(38, 0, 255, 0.363);
+    width: 598px;
+    height: 302.5px;
+    margin-top: 3em;
+    margin-left: 1em;
+}
+
+.Demonio-nome{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.Demonio-carousel{
+    width: 200px;
+    height: 320px;
+}
+
+.Demonio-Img{
+    height: 238px;
+    width: 200px;
+    margin-top: -16px;
+}
+
+.Demonio-resumo{
+    font-size: 16px;
+    background-color: #0f101b8a;
+    padding: 5% 5% 3.6% 5%;
+    /* border: 2px solid blue; */
+}
+
+.Demonio-info-Area{
+    background-color: #0f101b8a;
+    width: 393.9px;
+    margin-top: -16px;
+    /* border: 2px solid red; */
+}
+
+.Titulo-Demonio{
+    display: flex;
+    justify-content: center;
+    background-color: #4000ff;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* CeT */
+.CeT{
+    border: 2px solid rgb(244, 255, 90);
+    width: 598px;
+    height: 272px;
+    margin-top: 3em;
+    margin-left: 1.5em;
+    background-color: rgb(134, 63, 145);
+}
+
+.CeT-nome{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.CeT-Img{
+    height: 238px;
+    width: 200px;
+    margin-top: -16px;
+}
+
+.CeT-resumo{
+    font-size: 16px;
+    margin: 4% 2.5% 4% 4%;
+}
+
+.CeT-info-Area{
+    background-color: #6b7429;
+    width: 393.9px;
+
+}
+
+.Titulo-CeT{
+    display: flex;
+    justify-content: center;
+    background-color: #4b5926;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Jeremias */
+.Jeremias{
+    border: 2px solid  #0e2353;
+    width: 598px;
+    margin-top: 3em;
+    margin-left: 1em;
+    background-color: #333947cc;
+}
+
+.Jeremias-nome{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    background-color: rgb(0, 0, 0);
+}
+
+.Jeremias-Img{
+    height: 415px;
+    width: 200px;
+    margin-top: -16px;
+    /* background-color: rgba(255, 255, 255, 0.308); */
+}
+
+.Jeremias-resumo{
+    font-size: 16px;
+    padding: 5% 5% 3% 5%;
+}
+
+.ç{
+    padding-bottom: 2%;
+}
+
+.Jeremias-info-Area{
+    background-color: #2932748a;
+    width: 393.7px;
+    margin-top: -16px;
+}
+
+.Titulo-Jeremias{
+    display: flex;
+    justify-content: center;
+    background-color: #24444e;
+}
+
+.curiosidade-jeremias{
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 2.5%;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Blibies */
+.Blibies{
+    border: 2px solid rgb(230, 0, 255);
+    width: 601px;
+    height: 417px;
+    margin-top: 3em;
+    margin-left: 1.5em;
+    background-color: rgb(88, 11, 86);
+}
+
+.Blibies-left{
+    border: 1px solid rgb(55, 55, 55);
+}
+
+.Blibies-nome{
+    font-size: 25px;
+    display: flex;
+    justify-content: center;
+    width: 210px;
+    background-color: rgb(0, 0, 0);
+}
+
+.vertical-Biblies{
+    border-left: 2px solid rgba(0, 0, 0, 0.721);
+    height: 280px;
+    position:absolute;
+    left: 69.70%;
+}
+
+.Blibies-carousel{
+    width: 200px;
+    height: 114px;
+    /* border: 1px solid orange; */
+}
+
+.Blibies-Img{
+    height: 260px;
+    width: 210px;
+    margin-top: -16px;
+}
+
+.Blibies-resumo{
+    font-size: 16px;
+    /* background-color: rgb(0, 0, 0); */
+    margin: 5% 5% 5% 5%; 
+    /* background-color: rgb(231, 125, 230); */
+}
+
+.Blibies-info-Area{
+    background-color: #e935838a;
+    margin-top: 23px;
+    /* margin-top: -16px; */
+}
+
+.Titulo-Blibies{
+    display: flex;
+    justify-content: center;
+    background-color: #58155c;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Temporadas */
+.Temporada{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 4%;
+    padding-left: 5%;
+    padding-right: 5%;
+    /* border: 2px solid orange; */
+}
+
+.season{
+    font-size: 25px;
+}
+
+.EPsNome{
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.EpsResumo{
+    font-size: 15px;
+}
+
+.Imgaa{
+    height: 30px;
+    cursor: pointer;
+    padding-top: 5px;
+    border: 2px solid rgba(0, 0, 255, 0.655);
+}
+.Imgaa:hover{
+    background-color: rgba(42, 54, 186, 0.717);
+    /* border: 3px solid purple; */
+    transition: 0.3s;
+    /* opacity: 0.7; */
+}
+
+.Epss{
+    /* border: 2px solid blue; */
+    display: flex;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+    justify-content: space-around;
+}
+
+.Epsss{
+    /* border: 2px solid green; */
+    width: 800px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.Eppss{
+    /* border: 2px solid rgb(255, 0, 0); */
+    width: 800px;
+    margin-left: 20px;
+    margin-bottom: 20px;
+    /* position: absolute; */
+}
+
+.Episodios{
+    height: 200px;
+    width: 350px;
+    /* border: 2px solid red; */
+}
+
+.poi:hover{
+    color: yellow;
+}
+
+.loi{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 2%;
+}
+
+.koi{
+    width: 350px;
+}
+
+
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Footer */
+.Footer{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2em;
+}
+
+.Assinatura{
+    padding-top: 15px;
+    padding-left: 10px;
+}
+
+.Rede-sociais{
+    height: 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.Rede-sociais:hover{
+    background-color: green;
+    border-radius: 50px;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* Estilos que influenciam a pagina toda*/
+h3{
+    padding-bottom: 1.5%;
+    font-size: 24px;
+}
+img{
+    padding: 0;
+    margin: 0;
+}
+.contaainer{
+    display: flex;  
+}
+
+.h1{
     text-align: center  ;
     padding-top: 15px;
+    font-weight: bold;
+}
+
+.h1-1{
+    font-size: 35px;
+}
+
+.h1-2{
+    font-size: 25px;
 }
 
 .Textos-Personagens{
@@ -372,7 +904,7 @@ h1{
     box-shadow: 0 0 8px rgb(255, 255, 255);
 }
 
-.Container-Infos{
+.Contaainer-Infos{
     display: flex;
     justify-content: center;
 }
@@ -381,9 +913,6 @@ h1{
     display: flex;
     justify-content: center;
 }
-
-/* --------------------------------------------------------------------------------------------------------------------- */
-
 
 .PE{
     padding: 15px 0 20px 10px;
@@ -413,8 +942,27 @@ ul{
 li{
     margin-left: 1.5em;
     line-height: 1.5;
+    font-size: 14px;
+    margin-top: -2px;
 }
 
 iframe{
     border-radius: 3%;
+}
+
+.Info-Belea{
+    border: 1px solid black;
+}
+/* -----------------------------------------------------------------------------------------------------------------------  */
+/* JavaScript */
+.hide{
+    display: none;
+}
+
+.show{
+    display: block;
+}
+
+.show2{
+    display: block;
 }
